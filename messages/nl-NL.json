@@ -1,1 +1,120 @@
-{}
+{
+  "app-name": "Kilometro",
+  "home": {
+    "meta-data": {
+      "title": "Slimme ritregistratie voor deelauto’s",
+      "description": "Kilometro biedt eenvoudige administratie en slimme ritregistratie voor deelauto’s"
+    },
+    "hero": {
+      "title": "Houd grip op elk kilometer",
+      "description": "Kilometro biedt eenvoudige administratie en slimme ritregistratie voor deelauto’s",
+      "badge": {
+        "text": "Tijdelijk helemaal gratis",
+        "button": "Download de app"
+      },
+      "cta": "Download de app",
+      "link": "Contact",
+      "screen-shot": "Screenshot van de Kilometro app"
+    },
+    "features": {
+      "title": "Waarom Kilometro?",
+      "subtitle": "Alles wat je nodig hebt voor je deelauto’s",
+      "description": "Kilometro biedt een compleet platform voor ritregistratie, voertuigbeheer en rapportages. Eén oplossing voor al je administratieve en operationele behoeften.",
+      "items": {
+        "1": {
+          "title": "Met één druk op de knop",
+          "description": "Eenvoudig ritten vastleggen, inclusief tijden, afstanden en bestuurders."
+        },
+        "2": {
+          "title": "Voertuigbeheer",
+          "description": "Houd voertuiginformatie up-to-date en krijg inzicht in beschikbaarheid en gebruik."
+        },
+        "3": {
+          "title": "Rapportages",
+          "description": "Genereer direct gedetailleerde rapporten over ritten."
+        },
+        "4": {
+          "title": "Gebruikersbeheer",
+          "description": "Beheer administratieve leden en bestuurders eenvoudig op één plek."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Eenvoudige en transparante prijzen",
+      "description": "Betaal alleen voor de voertuigen die je gebruikt. Geen verborgen kosten of beperkingen.",
+      "card": {
+        "title": "Tijdelijk helemaal gratis",
+        "description": "Maak nu een account aan en profiteer van alle functionaliteiten van Kilometro. Geen verborgen kosten of beperkingen.",
+        "included": "Wat is inbegrepen?",
+        "features": {
+          "1": "Onbeperkt voertuigen en ritten",
+          "2": "Toegang tot alle functies",
+          "3": "Gedetailleerde rapportages",
+          "4": "Flexibele maandelijkse opzegging"
+        },
+        "pricing": {
+          "title": "Gratis uitproberen",
+          "cta": "Download de app",
+          "invoices-and-receipts-available-for-easy-reimbursement": "Facturen en bonnen beschikbaar voor eenvoudige vergoeding"
+        }
+      },
+      "button": "Maak een account aan"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "description": "Heb je een andere vraag of wil je meer informatie? Neem contact met ons op.",
+      "items": {
+        "1": {
+          "question": "Hoe werkt Kilometro?",
+          "answer": "Met Kilometro kun je eenvoudig ritten vastleggen door een druk op de knop. Deze ritten worden automatisch opgeslagen en kunnen worden geëxporteerd naar een rapport."
+        },
+        "2": {
+          "question": "Wat zijn de kosten van Kilometro?",
+          "answer": "Kilometro is tijdelijk helemaal gratis. Maak nu een account aan en profiteer van alle functionaliteiten van Kilometro. Geen verborgen kosten of beperkingen."
+        },
+        "3": {
+          "question": "Hoe kan ik Kilometro downloaden?",
+          "answer": "Kilometro is beschikbaar voor iOS en Android. Download de app in de App Store of Google Play Store."
+        }
+      }
+    },
+    "cta": {
+      "title": "Krijg grip op je ritten administratie",
+      "description": "Probeer Kilometro nu gratis en ervaar het gemak van slimme ritregistratie voor deelauto’s.",
+      "button": "Download de app",
+      "link": "Contact"
+    },
+    "footer": {
+      "product_of": "Een product van",
+      "contact": "Contact",
+      "terms": "Algemene voorwaarden",
+      "privacy": "Privacybeleid",
+      "cookie": "Cookiebeleid"
+    }
+  },
+  "contact": {
+    "meta-data": {
+      "title": "Contact",
+      "description": "Heb je een vraag of wil je meer informatie over Kilometro? Neem contact met ons op."
+    },
+
+    "title": "Neem contact met ons op",
+    "description": "Heb je een vraag of wil je meer informatie over Kilometro? Neem contact met ons op.",
+
+    "form": {
+      "error": "Er is iets fout gegaan.",
+
+      "errors": {
+        "invalid-name": "Naam is verplicht",
+        "invalid-email": "Ongeldig e-mailadres",
+        "invalid-message": "Bericht is verplicht"
+      },
+
+      "name": "Naam",
+      "email": "E-mailadres",
+      "message": "Bericht",
+
+      "submit": "Verstuur bericht"
+    }
+  }
+}

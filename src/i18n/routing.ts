@@ -14,6 +14,18 @@ export const routing = defineRouting({
       "nl-NL": "nl",
     },
   },
+
+  pathnames: {
+    "/": "/",
+
+    "/download": {
+      "nl-NL": "/download",
+    },
+
+    "/contact": {
+      "nl-NL": "/contact",
+    },
+  },
 });
 
 // Lightweight wrappers around Next.js' navigation APIs
