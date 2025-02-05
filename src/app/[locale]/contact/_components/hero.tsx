@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { ContactForm } from "@/app/[locale]/contact/_components/form";
+import { CaptchaProvider } from "@/app/[locale]/contact/_components/captcha-provider";
 
 export function ContactHero() {
   const t = useTranslations("contact");
@@ -11,7 +12,9 @@ export function ContactHero() {
       </h2>
       <p className="mt-2 text-lg/8 text-gray-600">{t("description")}</p>
       <div className="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
-        <ContactForm />
+        <CaptchaProvider>
+          <ContactForm />
+        </CaptchaProvider>
       </div>
     </div>
   );

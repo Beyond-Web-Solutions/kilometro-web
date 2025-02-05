@@ -1,9 +1,10 @@
 "use client";
 
 import { contact } from "@/app/[locale]/contact/_lib/actions";
-import { useActionState, useEffect } from "react";
-import { Loader } from "lucide-react";
+import { useActionState, useCallback } from "react";
+import { CheckCircleIcon, Loader } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useReCaptcha } from "next-recaptcha-v3";
 import Form from "next/form";
 
 type State = {
@@ -16,21 +17,53 @@ type State = {
 };
 
 const initialState: State = {
-  ok: true,
+  ok: false,
   errors: {},
 };
 
 export function ContactForm() {
   const t = useTranslations("contact.form");
 
-  const [state, formAction, pending] = useActionState(contact, initialState);
+  const { executeRecaptcha } = useReCaptcha();
 
-  useEffect(() => {
-    console.log(state);
-  }, [state]);
+  const handleSubmit = useCallback(
+    async (_: unknown, formData: FormData) => {
+      const token = await executeRecaptcha("contact");
+
+      formData.set("captcha", token);
+
+      return contact(_, formData);
+    },
+    [executeRecaptcha],
+  );
+
+  const [state, formAction, pending] = useActionState(
+    handleSubmit,
+    initialState,
+  );
 
   return (
     <Form action={formAction} className="lg:flex-auto">
+      {state.ok && (
+        <div className="rounded-md bg-green-50 p-4 mb-16">
+          <div className="flex">
+            <div className="shrink-0">
+              <CheckCircleIcon
+                aria-hidden="true"
+                className="size-5 text-green-400"
+              />
+            </div>
+            <div className="ml-3">
+              <h3 className="text-sm font-medium text-green-800">
+                {t("success.title")}
+              </h3>
+              <div className="mt-2 text-sm text-green-700">
+                <p>{t("success.description")}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>
           <label

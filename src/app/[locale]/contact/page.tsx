@@ -1,7 +1,6 @@
 import { MetaDataParams, PageProps } from "@/_lib/types/props";
 import { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { useTranslations } from "next-intl";
 import { ContactHero } from "@/app/[locale]/contact/_components/hero";
 
 export async function generateMetadata({

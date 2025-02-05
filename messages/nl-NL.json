@@ -107,7 +107,13 @@
       "errors": {
         "invalid-name": "Naam is verplicht",
         "invalid-email": "Ongeldig e-mailadres",
-        "invalid-message": "Bericht is verplicht"
+        "invalid-message": "Bericht is verplicht",
+        "invalid-captcha": "Captcha is verplicht"
+      },
+
+      "success": {
+        "title": "Bedankt voor je bericht",
+        "description": "We nemen zo snel mogelijk contact met je op."
       },
 
       "name": "Naam",
