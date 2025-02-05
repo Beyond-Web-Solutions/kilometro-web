@@ -10,10 +10,12 @@ import { NextIntlClientProvider } from "next-intl";
 import { Metadata } from "next";
 import { AppHeader } from "@/app/[locale]/_components/header";
 import { Inter } from "next/font/google";
-import "../globals.css";
 import { AppFooter } from "@/app/[locale]/_components/footer";
+import "../globals.css";
 
-const inter = Inter({});
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
