@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import Logo from "./logo.png";
+import Logo from "./beyond-logo.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,7 +14,7 @@ export function AppFooter() {
   ];
 
   return (
-    <footer className="relative mx-auto mt-32 max-w-7xl px-6 lg:px-8 bg-white">
+    <footer className="relative mx-auto mt-32 max-w-7xl px-6 lg:px-8 ">
       <div className="mx-auto max-w-7xl overflow-hidden border-t px-6 py-20 sm:py-24 lg:px-8">
         <nav
           aria-label="Footer"

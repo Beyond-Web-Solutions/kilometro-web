@@ -22,7 +22,7 @@ export default async function ContactPage({ params }: PageProps) {
   setRequestLocale(locale);
 
   return (
-    <div className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div className="relative isolate bg-white px-6 py-48 sm:py-64 lg:px-8">
       <svg
         aria-hidden="true"
         className="absolute inset-0 -z-10 size-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"

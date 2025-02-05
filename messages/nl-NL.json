@@ -1,5 +1,10 @@
 {
   "app-name": "Kilometro",
+  "header": {
+    "home": "Home",
+    "contact": "Contact",
+    "download": "Download de app"
+  },
   "home": {
     "meta-data": {
       "title": "Slimme ritregistratie voor deelauto’s",
