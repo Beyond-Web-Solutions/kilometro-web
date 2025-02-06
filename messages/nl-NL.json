@@ -93,8 +93,7 @@
       "product_of": "Een product van",
       "contact": "Contact",
       "terms": "Algemene voorwaarden",
-      "privacy": "Privacybeleid",
-      "cookie": "Cookiebeleid"
+      "privacy": "Privacybeleid"
     }
   },
   "contact": {
@@ -102,30 +101,107 @@
       "title": "Contact",
       "description": "Heb je een vraag of wil je meer informatie over Kilometro? Neem contact met ons op."
     },
-
     "title": "Neem contact met ons op",
     "description": "Heb je een vraag of wil je meer informatie over Kilometro? Neem contact met ons op.",
-
     "form": {
       "error": "Er is iets fout gegaan.",
-
       "errors": {
         "invalid-name": "Naam is verplicht",
         "invalid-email": "Ongeldig e-mailadres",
         "invalid-message": "Bericht is verplicht",
         "invalid-captcha": "Captcha is verplicht"
       },
-
       "success": {
         "title": "Bedankt voor je bericht",
         "description": "We nemen zo snel mogelijk contact met je op."
       },
-
       "name": "Naam",
       "email": "E-mailadres",
       "message": "Bericht",
-
       "submit": "Verstuur bericht"
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "introduction": "Dit privacybeleid beschrijft hoe Kilometro omgaat met persoonlijke gegevens, specifiek locatiegegevens, van gebruikers.",
+    "sections": {
+      "1": {
+        "title": "1. Verzameling en Gebruik van Locatiegegevens",
+        "content_1": "Kilometro maakt gebruik van locatiegegevens om ritten te registreren. Locatiegegevens worden uitsluitend verzameld onder de volgende voorwaarden:",
+        "items": {
+          "1": "De gebruiker heeft de app geopend",
+          "2": "De gebruiker heeft handmatig op de knop \"Start rit\" gedrukt"
+        },
+        "content_2": "Tijdens een actieve rit wordt de locatie in real-time vastgelegd en lokaal opgeslagen op het apparaat. Zodra de rit wordt beëindigd, worden de locatiegegevens versleuteld en veilig opgeslagen."
+      },
+      "2": {
+        "title": "2. Opslag en Beveiliging",
+        "items": {
+          "1": "Locatiegegevens worden lokaal opgeslagen op het apparaat totdat de rit is afgerond.",
+          "2": "Na afronding van de rit worden de gegevens versleuteld en beveiligd opgeslagen.",
+          "3": "Wij nemen passende maatregelen om gegevens te beschermen tegen ongeautoriseerde toegang of misbruik."
+        }
+      },
+      "3": {
+        "title": "3. Delen van Gegevens",
+        "content": "Kilometro deelt locatiegegevens niet met derden."
+      },
+      "4": {
+        "title": "4. Rechten van Gebruikers",
+        "content": "Gebruikers hebben de volgende rechten met betrekking tot hun gegevens:",
+        "items": {
+          "1": "Inzage in hun opgeslagen locatiegegevens.",
+          "2": "Verwijdering van hun gegevens indien gewenst.",
+          "3": "Intrekking van toestemming voor locatiegebruik via de instellingen van hun apparaat."
+        }
+      },
+      "5": {
+        "title": "5. Wijzigingen in dit Privacybeleid",
+        "content": "Wij behouden ons het recht voor om dit privacybeleid te wijzigen. Wijzigingen worden gecommuniceerd via de app of onze website."
+      },
+      "6": {
+        "title": "6. Contact",
+        "content": "Voor vragen over dit privacybeleid kunt u contact opnemen via het contactformulier op onze website."
+      }
+    }
+  },
+  "terms": {
+    "title": "Algemene voorwaarden",
+    "introduction": "Deze algemene voorwaarden zijn van toepassing op het gebruik van de diensten en applicatie van Kilometro. Door gebruik te maken van Kilometro stemt u in met deze voorwaarden.",
+
+    "sections": {
+      "1": {
+        "title": "1. Definities",
+        "content": "Deze algemene voorwaarden zijn van toepassing op het gebruik van de diensten en applicatie van Kilometro. Door gebruik te maken van Kilometro stemt u in met deze voorwaarden."
+      },
+      "2": {
+        "title": "2. Gebruik van de Applicatie",
+        "content": "Kilometro is een applicatie en bijbehorende dienst aangeboden door Beyond Web Solutions. De applicatie is bedoeld voor gebruikers die minimaal 18 jaar oud zijn of toestemming hebben van een wettelijke vertegenwoordiger. De gebruiker is verantwoordelijk voor correcte invoer en gebruik van de applicatie. Kilometro mag functionaliteiten aanpassen, uitbreiden of beperken zonder voorafgaande kennisgeving."
+      },
+      "3": {
+        "title": "3. Aansprakelijkheid",
+        "content": "Kilometro spant zich in om een betrouwbare en veilige applicatie te bieden, maar kan niet garanderen dat de diensten altijd foutloos functioneren. Kilometro is niet aansprakelijk voor schade voortvloeiend uit het gebruik van de applicatie. De gebruiker is zelf verantwoordelijk voor het veilig bewaren van zijn inloggegevens en gebruik van de applicatie."
+      },
+      "4": {
+        "title": "4. Kosten en Betaling",
+        "content": "Kilometro is gratis zolang het in bèta is. Na de bètafase kan het gebruik van Kilometro onderhevig zijn aan kosten, die vooraf duidelijk gecommuniceerd worden. Eventuele betalingen zijn niet restitueerbaar, tenzij anders overeengekomen."
+      },
+      "5": {
+        "title": "5. Gegevensbescherming",
+        "content": "Het privacybeleid van Kilometro is van toepassing op het verwerken van persoonsgegevens en locatiegegevens. Locatiegegevens worden alleen verzameld en opgeslagen zoals beschreven in het privacybeleid."
+      },
+      "6": {
+        "title": "6. Beëindiging van Gebruik",
+        "content": "De gebruiker kan op elk moment stoppen met het gebruik van de applicatie. Kilometro behoudt zich het recht voor om gebruikers te blokkeren of de toegang te beperken bij misbruik of overtreding van deze voorwaarden."
+      },
+      "7": {
+        "title": "7. Wijzigingen",
+        "content": "Kilometro behoudt zich het recht voor om deze voorwaarden te wijzigen. Wijzigingen worden gecommuniceerd via de applicatie of website."
+      },
+      "8": {
+        "title": "8. Contact",
+        "content": "Voor vragen over deze algemene voorwaarden kunt u contact opnemen via het contactformulier op onze website."
+      }
     }
   }
 }

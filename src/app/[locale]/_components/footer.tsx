@@ -10,7 +10,6 @@ export function AppFooter() {
     { name: t("contact"), href: "/contact" },
     { name: t("terms"), href: "/terms" },
     { name: t("privacy"), href: "/privacy" },
-    { name: t("cookie"), href: "/cookies" },
   ];
 
   return (
