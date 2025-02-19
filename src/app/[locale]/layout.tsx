@@ -32,6 +32,7 @@ export async function generateMetadata({
       template: `%s | ${t("app-name")}`,
       default: t("app-name"), // a default is required when creating a template
     },
+    itunes: { appId: "6741210383" },
   };
 }
 
